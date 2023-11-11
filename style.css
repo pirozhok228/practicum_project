@@ -88,7 +88,7 @@ p {
 
 h1 {
     font-size: 48px;
-    font-family: "Anonymous Pro", sans-serif;
+    font-family: "Anonymous Pro", serif;
     font-style: normal;
     font-weight: 700;
     line-height: 100%;
@@ -137,4 +137,79 @@ h2 {
     align-items: center;
     padding-bottom: 15px;
     border-bottom: 1px solid rgba(230, 232, 236, 0.40);
+}
+
+.content-sneaker-big {
+    padding: 32px 150px 32px 150px;
+    display: flex;
+}
+
+.sneaker-big {
+    width: 1200px;
+    background-color: white;
+    padding: 48px;
+    justify-content: center;
+    margin: 32px 150px 32px 150px;
+    border-radius: 50px;
+}
+
+.sneaker-big__additional-info {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    justify-content: space-between;
+}
+
+.sneaker-big__text {
+    width: 520px;
+}
+
+.parameters {
+    width: 520px;
+}
+
+.caption {
+    padding: 0px 0px 20px 0px;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    font-family: "Anonymous Pro", serif;
+}
+
+td {
+    width: 260px;
+}
+
+tr {
+    display: block;
+    border-bottom: 1px solid black;
+    padding: 24px 0px 24px 0px;
+    font-family: "Anonymous Pro", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.right {
+    text-align: right;
+}
+
+table {
+    width: 520px;
+}
+
+h3 {
+    font-family: "Anonymous Pro", serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 36px */
+}
+
+.sneaker-big__text {
+    font-family: "Anonymous Pro", serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
 }
