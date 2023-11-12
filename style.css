@@ -213,3 +213,10 @@ h3 {
     font-weight: 400;
     line-height: 28px;
 }
+
+.sneaker-img {
+    width: 1044px;
+    height: 728px;
+    display: flex;
+    justify-self: center;
+}
