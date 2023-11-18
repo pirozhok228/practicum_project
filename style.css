@@ -272,10 +272,10 @@ h3 {
     height: 100px;
 }
 
-@media screen and (max-width: 430px) and (max-height: 932px) {
+@media screen and (max-width: 430px) {
     .header {
-        width: 690px;
-        height: 190px;
+        width: 375px;
+        height: auto;
         display: flex;
         flex-direction: column;
         padding: 20px 0px 20px 0px;
@@ -300,21 +300,25 @@ h3 {
     }
 
     .footer {
-        width: 690px;
-        height: 190px;
+        width: 355px;
+        height: auto;
         display: flex;
         flex-direction: column;
-        padding: 20px 0px 20px 0px;
+        padding: 20px 10px 20px 10px;
+        row-gap: 10px;
     }
 
     .footer-high {
         display: flex;
         flex-direction: column;
         padding: 0px;
+        width: 355px;
+        row-gap: 10px;
     }
 
     .footer-text {
         padding: 0px;
+        margin-top: 20px
     }
 
     .footer-logo {
@@ -329,10 +333,11 @@ h3 {
     }
 
     .sneaker-big__additional-info {
+        width: 335px;
         display: flex;
         flex-direction: column;
         align-self: center;
-        row-gap: 40px;
+        row-gap: 30px;
     }
 
     .container {
@@ -346,79 +351,103 @@ h3 {
 
     .content {
         display: flex;
-        row-gap: 40px;
-        width: 690px;
-        padding: 30px 10px 30px 10px;
+        row-gap: 30px;
+        width: 343px;
+        padding: 20px 16px 20px 16px;
     }
 
     h1 {
-        justify-self: center;
+        justify-self: start;
+        width: 30px;
+        font-size: 45px;
     }
 
     .sneakers {
-        width: 557px;
-        height: 687px;
+        width: 343px;
+        height: auto;
     }
 
     img {
-        width: 557px;
-        height: 381.34px;
+        width: 343px;
+        height: 235px;
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     p {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     a:active,
     a:hover,
     a {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .sneaker-big {
-        width: 630px;
+        width: 335px;
         padding: 30px 10px 30px 10px;
-        margin: 20px 20px 20px 20px;
+        margin: 20px 10px 20px 10px;
         display: flex;
     }
 
     .sneaker-img-1 {
-        width: 630px;
-        height: 357px;
+        width: 335px;
+        height: 190px;
     }
 
     .sneaker-img-2 {
-        width: 630px;
-        height: 430.33px;
+        width: 335px;
+        height: 229px;
     }
 
     .sneaker-img-3 {
-        width: 630px;
-        height: 440px;
+        width: 335px;
+        height: 234px;
     }
 
     .sneaker-big__text {
-        font-size: 35px;
+        width: 335px;
+        font-size: 20px;
     }
 
     .caption td {
-        font-size: 45px;
+        font-size: 25px;
     }
 
     td {
-        font-size: 35px;
+        font-size: 20px;
+    }
+
+    tr {
+        width: 331px;
+    }
+
+    .parameters table {
+        width: 335px;
+    }
+
+    tbody {
+        width: 331px
+    }
+
+    .parameters {
+        width: 335px;
     }
 
     h3 {
-        font-size: 40px;
+        font-size: 24px;
     }
 
     .footer-logo {
-        width: 406px;
-        height: 30px;
+        width: 335px;
+        height: 25px;
+    }
+
+    .page {
+        width: auto;
+        font-size: 35px;
     }
 }
